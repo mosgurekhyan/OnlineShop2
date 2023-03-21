@@ -1,0 +1,38 @@
+.slider {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  perspective: 100px;
+  animation: scroll 15s linear infinite;
+}
+.slider:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+.slider img {
+  width: 250px;
+  height: 190px;
+  transition: transform 2s;
+  margin-right: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.slider img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(-2350px);
+  }
+  100% {
+    transform: translateX(2350px);
+  }
+}
+
+.div5 {
+  background-color: rgb(4, 4, 39);
+  overflow: hidden;
+}/*# sourceMappingURL=Slider.css.map */

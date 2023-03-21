@@ -1,0 +1,33 @@
+.categories {
+  width: 100%;
+  padding: 30px 90px;
+}
+.categories h1 {
+  color: rgb(4, 4, 39);
+  margin-bottom: 25px;
+  font-size: 39px;
+  width: 100%;
+  text-align: center;
+}
+.categories .items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.categories .items img {
+  width: 210px;
+  height: 210px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.categories .items .categoryItem {
+  text-align: center;
+}
+.categories .items .categoryItem h4 {
+  margin-top: 4px;
+  color: black;
+}
+.categories .items a {
+  text-decoration: none;
+}/*# sourceMappingURL=Category.css.map */

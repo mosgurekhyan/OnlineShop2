@@ -1,0 +1,112 @@
+.singleProduct {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .item {
+        width: 650px;
+        height: 280px;
+        position: relative;
+        border-radius: 3px;
+        background-color: #ffffff;
+
+        .x {
+            position: absolute;
+            right: -12px;
+            top: -12px;
+            background-color: rgba(0, 0, 0, 0.716);
+            transition: .5s;
+            z-index: 1;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .fas {
+            color: #ffffff;
+        }
+
+        .data {
+            width: 650px;
+            height: 280px;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                object-fit: cover;
+                width: 260px;
+                height: 220px;
+                margin-top: 10px;
+            }
+
+            .detail {
+                width: 310px;
+                height: 225px;
+                margin-top: 10px;
+                overflow-y: scroll;
+
+                .title {
+                    color: darkblue;
+                    font-size: 21px;
+                }
+
+                h5 {
+                    color: grey;
+                    font-size: 14px;
+                    margin: 17px 0;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 800;
+                    margin-bottom: 8px;
+                }
+
+                button {
+                    background-color: darkblue;
+                    border: none;
+                    border-radius: 3px;
+                    width: 100px;
+                    height: 29px;
+                    transition: .5s;
+
+                    &:hover {
+                        background-color: darkcyan;
+                        cursor: pointer;
+                    }
+                }
+                
+
+                .btns {
+                    margin: 11px 0;
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    span {
+                        color: grey;
+                        font-size: 17px;
+                    }
+
+                    button {
+                        background-color: transparent;
+                        border: none;
+                    }
+
+                    i {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.categories {
+    width: 100%;
+    padding: 30px 90px;
+
+    h1 {
+        color: darkblue;
+        margin-bottom: 25px;
+        font-size: 39px;
+        width: 100%;
+    }
+
+    .items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        img {
+            width: 210px;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .categoryItem {
+            text-align: center;
+
+            h4 {
+                margin-top: 4px;
+                color: black;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    
+}

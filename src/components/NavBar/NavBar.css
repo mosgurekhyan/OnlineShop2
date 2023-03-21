@@ -1,0 +1,113 @@
+.ul1 {
+  width: 100%;
+  height: 60px;
+  padding: 0 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul1 li {
+  list-style: none;
+}
+.ul1 .shopping {
+  font-size: 28px;
+  font-weight: 900;
+  color: darkblue;
+}
+.ul1 .hub {
+  font-size: 28px;
+  font-weight: 900;
+  color: gold;
+}
+.ul1 input {
+  width: 200px;
+  height: 28px;
+  font-size: 14px;
+  color: darkblue;
+  border: 1px solid gold;
+  padding-left: 7px;
+  outline: none;
+}
+.ul1 input::-moz-placeholder {
+  color: darkblue;
+}
+.ul1 input::placeholder {
+  color: darkblue;
+}
+.ul1 .basket {
+  font-size: 28px;
+  color: gold;
+}
+.ul1 .cart {
+  font-size: 17px;
+  color: darkblue;
+}
+.ul1 .count {
+  background-color: gold;
+  padding: 2px;
+  border-radius: 50%;
+}
+.ul1 .form i {
+  font-size: 15px;
+  background: none;
+  color: #ffffff;
+}
+.ul1 .form button {
+  width: 28px;
+  height: 28px;
+  border: none;
+  outline: none;
+  background-color: gold;
+}
+
+.div li {
+  color: rgb(4, 4, 39);
+  font-size: 17px;
+}
+.div div {
+  width: 280px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  background-color: #ffffff;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  padding: 60px 0 0 16px;
+  z-index: 99999;
+  transition: 0.7s;
+}
+.div i:hover {
+  cursor: pointer;
+}
+.div .bar {
+  color: gold;
+  font-size: 28px;
+}
+
+.x {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0.43);
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: rgb(4, 4, 39);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  transition: 0.5s;
+}
+nav a:hover, nav a .active-nav {
+  color: gold;
+}/*# sourceMappingURL=NavBar.css.map */
